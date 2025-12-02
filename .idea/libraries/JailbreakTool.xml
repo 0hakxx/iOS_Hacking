@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JailbreakTool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/00. Jailbreak/JailbreakTool.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
