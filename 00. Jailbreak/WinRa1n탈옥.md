@@ -8,9 +8,11 @@
 
 가장 먼저 탈옥을 하기 전에 아이튠즈를 설치한다.
 
-- iTunes 설치 (Apple 드라이버 용) https://apps.microsoft.com/detail/9pb2mz1zmb1s?hl=ko-KR&gl=KR
+- iTunes 설치 (Apple 드라이버 용) https://www.apple.com/kr/itunes/
+  - Microsoft 가 아닌 Apple 공식 홈페이지에서 다운로드
 
 
+---
 
 ### 1.1 환경 구성
 
@@ -49,6 +51,8 @@ https://www.ikeytools.com/
 
 1. 다운로드 받은 zip 파일 압축 해제
 2. 확장자가 `.msi` 인 `UsbDk_~_x64.msi` 설치 후 PC 재부팅
+- 주의. 만약 이미 설치되어 재설치 시 에러가 발생한다면 설정 > 설치된 앱에서 해당 `UsbDk_~_x64.msi` 를 검색 후 삭제 -> PC 재부팅, 설치 -> PC 재부팅한다.
+
 3. `WinRa1n2.1.exe` 실행 (아래처럼 진행이 안 되면 `WinRa1n2.0.exe` 등 기타 버전으로 실행)
 
 
@@ -60,6 +64,7 @@ https://www.ikeytools.com/
 2) `Palera1n 2.0.0 beta 7/8` 선택
 3) `Rootful(7)`, `Create Fakefs` 선택
 4) `(F) Fix Driver` 진행 후 `(N) Next` 진입
+- 주의. 여기서 UsbDK가 NoUsbDK 으로 비활성화 되어있는데 iOS 버전마다 탈옥 시 다름. 만약 활성화되어 있는 경우 체크 선택
 
 ![img_3.png](img_3.png)
 
