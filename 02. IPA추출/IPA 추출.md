@@ -83,6 +83,9 @@ frida16111               C:\Users\ \anaconda3\envs\frida16111
 ```
 
 #### 5. pip3 install 명령어를 이용하여 requirement.txt. 파일을 설치한다.
+
+requirement.txt 파일 내 frida-tools 는 이미 설치되어 있으므로 frida-tools 삭제한 뒤 
+
 ```shell
 (frida16111) D: 01. IOS\02. firda-ios-dump-master>pip3 install -r requirements.txt
 ```
@@ -106,15 +109,28 @@ Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
 
 #### 6. frida-ios-dump 폴더 내 dump.py 파일을 아래 사진과 같이 수정한다.
 
-![img_1.png](iosdump2.png)
+- ![img_1.png](iosdump2.png)
+
 dump.py 파일 확인
 
-![img_2.png](iosdump3.png)
-dumpy.py 수정
+dump.py 내 Host / Port 번호 수정
+
+변경 전) Host = 127.0.0.1 / Port = 2222
+
+변경 후) Host = 단말기 IP / Port = 22
+
+
 
 #### 7. gow를 다운로드 후 PC에 설치한다.
 
--  gow는 윈도우에서 리눅스 명령어를 사용할 수 있도록 해준다.
+
+dump.py 코드 내에서 리눅스 명령어인 chmod 를 사용하는데
+
+윈도우 cmd에서는 추가 프로그램 설치를 하지 않으면 해당 명령어를 사용하지 못한다.
+
+따라서 Gow 라는 프로그램을 설치하여 윈도우 cmd 환경에서 리눅스 명령어가
+
+사용 가능하게끔 해주면 해결 가능하다.
 
 https://github.com/bmatzelle/gow/releases
 
