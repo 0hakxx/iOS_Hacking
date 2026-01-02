@@ -64,7 +64,10 @@ https://www.ikeytools.com/
 2) `Palera1n 2.0.0 beta 7/8` 선택
 3) `Rootful(7)`, `Create Fakefs` 선택
 4) `(F) Fix Driver` 진행 후 `(N) Next` 진입
-- 주의. 여기서 UsbDK가 NoUsbDK 으로 비활성화 되어있는데 iOS 버전마다 탈옥 시 다름. 만약 활성화되어 있는 경우 체크 선택
+> 주의. 여기서 UsbDK가 NoUsbDK 으로 비활성화 되어있는데 iOS 버전마다 탈옥 시 다름. 만약 활성화되어 있는 경우 체크 선택
+
+> 💡 팁: 만약 Next 버튼 클릭이 활성화 되지 않는다면 아이폰을 아예 복구 모드(Recovery Mode)로 강제 진입시킨 상태에서 WinRa1n에 연결하면 신뢰 단계 없이 바로 다음 단계로 넘어갈 수 있음
+
 
 ![img_3.png](img_3.png)
 
