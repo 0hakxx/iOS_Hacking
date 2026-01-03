@@ -32,7 +32,7 @@ https://appledb.dev/
 
 위 사이트에 있는 대로  iPhone X 기종의 ios 16.7.11 버전일 경우 `paleran1n` 을 이용하여 탈옥을 진행해야 한다.
 
-![img.png](img.png)
+![img.png](JailBreakTool1.png)
 
 **참고. CheckRa1n 의 경우도 paleran1n으로 탈옥 가능**
 
@@ -45,7 +45,7 @@ https://appledb.dev/
 https://www.ikeytools.com/
 접속 후 `WinRaln v2.1 Releases Notes` 게시글 접속한 뒤
 
-![img_1.png](img_1.png)
+![img_1.png](JailBreakTool2.png)
 
 해당 다운로드 링크에 들어가서 zip 파일을 다운로드 받는다.
 
@@ -58,7 +58,7 @@ https://www.ikeytools.com/
 
 실행하면
 
-![img_2.png](img_2.png)
+![img_2.png](JailBreakTool3.png)
 
 1) PC와 iOS 기기를 연결한 뒤
 2) `Palera1n 2.0.0 beta 7/8` 선택
@@ -70,13 +70,13 @@ https://www.ikeytools.com/
 > 이럴 경우 아예 복구 모드(Recovery Mode)로 강제 진입시킨 상태에서 WinRa1n에 연결하면 컴퓨터 신뢰 단계 없이 바로 다음 단계로 넘어갈 수 있음
 
 
-![img_3.png](img_3.png)
+![img_3.png](JailBreakTool4.png)
 
 1) (S) Start 누르기
 2) 음향 낮추는 키와 전원키를 동시에 3초 누르기
 3) 전원키를 떼고 음향 낮추는 키만 10초 누르기
 
-![img_4.png](img_4.png)
+![img_4.png](JailBreakTool5.png)
 
 핸드폰에 위의 문구가 나타나는지 확인
 - `"COPYING FILES TO FAKEFS..."(MAY TAKE UPTO 10 MINITUES)`
@@ -85,11 +85,11 @@ https://www.ikeytools.com/
   정상적으로 문구 확인이 된다면
 
 
-![img_5.png](img_5.png)
+![img_5.png](JailBreakTool6.png)
 
 Create Fakefs 해제 후 동일하게 진행
 
-![img_6.png](img_6.png)
+![img_6.png](JailBreakTool7.png)
 
 iPhone에 Palera1n 설치 완료됨 확인
 
@@ -123,4 +123,4 @@ AppleCBTL1612::checkPinVoltage: write(dxctrl :0x1c)
 AppleCBTL1612::checkPinVoltage: reset(dxctrl :0x10)
 ```
 
-![img_7.png](img_7.png)
+![img_7.png](JailBreakTool8.png)
